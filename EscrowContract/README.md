@@ -10,7 +10,7 @@ An escrow smart contract is an algorithm that runs within the framework of the C
 * private String beneficiary = "reciever_wallet";
 Instead of the text “receiver_wallet”, you must insert the public address of the “Recipient” wallet, which should be created within the Credits blockchain platform. It will be possible to withdraw funds that will be deposited to the address of the smart contract only at this public address.
 * final int unix_time = date_time;
-Instead of the text “date_time”, you must insert the date and time after which the funds deposited into the smart contract can be withdrawn. The date and time must be converted to the unix format using the converter.
+Instead of the text “date_time”, you must insert the date and time after which the funds deposited into the smart contract can be withdrawn. The date and time must be converted to the unix format using [the converter](https://www.cy-pr.com/tools/time/)
 2. Deploy a smart contract using Web Wallet or Desktop Wallet services. After the deployment of the smart contract, the data entered in paragraph 1 will be rendered immutable.
 
 3. Place the desired amount on the deposit of the smart contract by sending to the public address of the smart contract. In the future, it will be impossible to change the amount sent!
