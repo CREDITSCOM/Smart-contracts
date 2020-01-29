@@ -10,7 +10,7 @@ public class EscrowContract extends SmartContract {
     final private String administrator;
 
     private String depositor = "";
-    private String beneficiary = "EoPibFsGPE4xqXH2tYTBQUeJqSMMFvCZUdqAW9Bnh3nd";
+    private String beneficiary = "reciever_wallet";
 
     private BigDecimal sum = null;
     private Date date = null;
@@ -18,7 +18,7 @@ public class EscrowContract extends SmartContract {
 
     public EscrowContract() {
         administrator = initiator;
-        final int unix_time = 1580119200;
+        final int unix_time = date_time;
         date = new Date((long)unix_time * 1000);
 
     }
